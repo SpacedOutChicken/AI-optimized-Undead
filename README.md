@@ -1,0 +1,3 @@
+A zombie plague has broken out in the world of Unciv... and if you like, you can be the zombies! Devour and conquer the world with your tireless flesh-eating army!
+
+The normal Undead is optimized for forcing human players to build in a certain manner. Unfortunately, the AI is too stupid to go along with it, and keeps killing its own cities. Fortunately (?) it's also stupid enough to not look for exploits that normal human players can spot. So, this mod exists as a testbed for the normal Undead mod and a way to let you play against it without watching the zombies starve to death like morons.

@@ -1,0 +1,36 @@
+[
+	{
+		"name": "The AI optimized Undead",
+		"leaderName": "The Mindless Horde",
+		"adjective": ["AI-Undead"],
+		"startBias": ["Snow", "Desert"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "'When there's no more room in Hell, the dead will walk the earth.' - George A. Romero",
+		"startIntroPart2": "'Darkness falls across the land, the midnight hour is close at hand, creatures crawl in search of blood to terrorize y'all's neighborhood' - Vincent Price",
+		
+		"declaringWar": "BRAINS!",
+		"attacked": "Grrr!",
+		"defeated": "Urk!",
+		"introduction": "Brains...",
+		
+		"neutralHello": "Brains?",
+		"neutralLetsHearIt": "Talk?",
+		"neutralNo": "Bad...",
+		"neutralYes": "Good...",
+
+		"hateHello": "Grrr...",
+		"hateLetsHearIt": "Talk...",
+		"hateNo": "Hate!",
+		"hateYes": "Okay...",
+		
+		"afterPeace": "Mmmm....good brains.",
+		"tradeRequest": "T-...tr-...trade?",
+
+		"outerColor": [16,16,16],
+		"innerColor": [255,200,200],
+		"uniqueName": "The Great Infectious Horde",
+		"uniques": ["67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment","50% chance of capturing defeated Barbarian naval units and earning 25 Gold","+30% Strength when fighting City-State units and cities","[+3 Happiness, +1 Food] from every [Infection]","[+50 Happiness] from every [Curse of Undeath]","[-1 Happiness] from all [Happiness] buildings","Golden Age length increased by [-25]%","Unhappiness from population decreased by [100]%","[+1 Gold, +1 Production, +1 Food] per [3] population in all cities","[military] units gain the [Eat the Living] promotion","[+3 Food, +2 Production, +2 Gold, +2 Happiness] from every [Graveyard]","+[10]% Strength if within [1] tiles of a [Graveyard]","[+6 Culture, +2 Production, +2 Gold, +2 Food] from every [Abyss]","+[100]% [Science] from every [Curse of Undeath]","+[100]% [Culture] from every [Curse of Undeath]","+[100]% [Production] from every [Curse of Undeath]","+[100]% [Gold] from every [Curse of Undeath]","+[100]% [Food] from every [Curse of Undeath]"],
+		"cities": ["Ground Zero"]
+	}
+]

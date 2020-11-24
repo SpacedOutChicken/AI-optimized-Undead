@@ -1,0 +1,71 @@
+[
+	{
+		"name": "Curse of Undeath",
+		"uniqueTo": "The AI optimized Undead",
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": -100, "culture": -100, "production": -100, "gold": -100, "food": -100},
+		"cost": -1,
+		"happiness": -50,
+        "uniques": ["Unbuildable","Remove extra unhappiness from annexed cities"]
+	},
+	{
+		"name": "Infection",
+		"uniqueTo": "The AI optimized Undead",
+		"providesFreeBuilding": "Curse of Undeath",
+		"cost": -1
+	},
+	{
+        "name": "Lich King's Tomb",
+        "replaces": "Temple",
+        "uniqueTo": "The AI optimized Undead",
+        "uniques": ["Doubles Gold given to enemy if city is captured","All newly-trained [military] units in this city receive the [Summon the Lich King] promotion"],
+		"culture": 3,
+		"maintenance": 2,
+        "specialistSlots": {"Artist": 1},
+        "requiredBuilding": "Monument",
+		"hurryCostModifier": 25,
+		"providesFreeBuilding": "Curse of Undeath",
+        "requiredTech": "Philosophy"
+	},
+	{
+		"name": "Fossil Fuel",
+		"uniqueTo": "The AI optimized Undead",
+		"providesFreeBuilding": "Curse of Undeath",
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["Provides [1] [Coal]","Provides [1] [Oil]"],
+		"requiredBuilding": "Stable",
+		"requiredResource": "Horses",
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Grimoire",
+		"uniqueTo":"The AI optimized Undead",
+		"replaces": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"percentStatBonus": {"science": -50},
+		"providesFreeBuilding": "Curse of Undeath",
+		"uniques": ["[+1 Science] Per [2] Population in this city"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Memento Mori",
+		"uniqueTo":"The AI optimized Undead",
+		"replaces": "Monument",
+		"providesFreeBuilding": "Curse of Undeath",
+		"percentStatBonus": {"culture": -30},
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1
+	},
+	{
+		"name": "Unused Courthouse",
+		"uniqueTo": "The AI optimized Undead",
+		"replaces": "Courthouse",
+		"cost": 0,
+        "uniques": ["Unbuildable","Will not be displayed in Civilopedia"],
+        "requiredTech": "Mathematics"
+    }
+]

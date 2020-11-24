@@ -1,0 +1,31 @@
+[
+
+	{
+		"name": "Eat the Living",
+		"effect": "Heals [25] damage if it kills a unit",
+		"uniques": ["Bonus vs City 50%","Undead"]
+	},
+	{
+		"name": "Hard to Kill Twice",
+		"effect": "+[25]% Strength when defending",
+		"prerequisites": ["Eat the Living"],
+		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged","Armor","WaterMelee","WaterRanged","WaterSubmarine","Fighter","Bomber","WaterAircraftCarrier"]
+	},
+	{
+		"name": "Sickening Plague",
+		"effect": "-10% combat strength for adjacent enemy units",
+		"uniques": ["Bonus vs wounded units 15%"],
+		"prerequisites": ["Eat the Living"],
+		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged","Armor","WaterMelee","WaterRanged","WaterSubmarine","Fighter","Bomber","WaterAircraftCarrier"]
+	},
+	{
+		"name": "Summon the Lich King",
+		"effect": "[Great General] is earned [50]% faster"
+	},
+	{
+		"name": "Advanced Infection",
+		"effect": "All healing effects doubled",
+		"prerequisites": ["Hard to Kill Twice","Sickening Plague"],
+		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged","Armor","WaterMelee","WaterRanged","WaterSubmarine","Fighter","Bomber","WaterAircraftCarrier"]
+	}
+]
